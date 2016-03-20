@@ -1,0 +1,3 @@
+[submodule "procscheduler"]
+	path = procscheduler
+	url = git@github.com:pile-contributors/procscheduler.git

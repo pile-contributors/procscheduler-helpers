@@ -1,4 +1,4 @@
-procscheduler
-======
+ProcScheduler Helpers
+=====================
 
-This is the helper repository for procscheduler pile.
+This is the helper repository for ProcScheduler pile.

@@ -1,3 +1,12 @@
 [submodule "procscheduler"]
 	path = procscheduler
 	url = git@github.com:pile-contributors/procscheduler.git
+[submodule "procrun"]
+	path = procrun
+	url = git@github.com:pile-contributors/procrun.git
+[submodule "applib"]
+	path = applib
+	url = git@github.com:pile-contributors/applib.git
+[submodule "translate"]
+	path = translate
+	url = git@github.com:pile-contributors/translate.git

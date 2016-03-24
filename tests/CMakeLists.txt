@@ -13,16 +13,18 @@
 #
 # ============================================================================
 
+find_package(Qt5 QUIET COMPONENTS Core Widgets)
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})
+
+set(CMAKE_AUTOMOC ON)
+set(CMAKE_INCLUDE_CURRENT_DIR ON)
 
 if (NOT INCLUDE_PILE_SOURCES_DIRECTLY)
     set (PROCSCHEDULER_LIBRARY procscheduler)
 endif()
 
 add_executable(test_basic
-    ${PROCSCHEDULER_SOURCES}
-    ${PROCSCHEDULER_HEADERS}
     basic.cc)
 
 if (UNIX)
